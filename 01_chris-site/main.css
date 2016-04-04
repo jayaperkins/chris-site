@@ -1,0 +1,133 @@
+
+html, body, header {
+    height: 100%;
+}
+
+
+body {
+    background-image: url(img/studio-session.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.name-container {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+
+.name {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.description {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    font-size: .75rem;
+}
+
+.main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 3rem;
+}
+
+.link-container {
+    display: flex;
+    width: 80%;
+    margin: 1rem;
+    height: 5rem;
+    text-align: center;
+    background-color: #1f0d1a;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.hover {
+    background-color: #3b3b3b;
+}
+
+@media screen and (min-width: 500px) {
+
+    body {
+        background-image: url(img/studio-session-desktop.jpg)
+    }
+
+    .name {
+        font-size: 2.25rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .link-container {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .name {
+        font-size: 3rem;
+    }
+
+    .link-container {
+        width: 40%;
+    }
+
+    .nav-link {
+        font-size: 1.25rem;
+    }
+}
+
